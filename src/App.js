@@ -1,4 +1,4 @@
-import {BrowserRouter as Router,Routes, Route} from 'react-router-dom'
+import {BrowserRouter as Router,Route, Routes } from 'react-router-dom'
 import './App.scss';
 import Header from './components/Header/Header';
 import Home from './components/Home/Home';
@@ -12,11 +12,14 @@ function App() {
     <div className="App">
         <Router>
           <Header />
+          <div className="container">
+
           <Routes>
-            <Route path='/' exactcomponent={Home} />
-            <Route path='/movie/:imdbID' component={MovieDetails} />
-            <Route component={PageNotFound} />
+            <Route path='/' exact element={ <Home /> } />
+            <Route path='/movie/:imdbID' element={<MovieDetails />} />
+            <Route element={<PageNotFound />} />
           </Routes>
+          </div>
           <Footer />
         </Router>
     </div>
