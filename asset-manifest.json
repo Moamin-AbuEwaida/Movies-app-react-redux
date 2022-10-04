@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/movies-app-react-redux/static/css/main.a381aa2c.css",
+    "main.js": "/movies-app-react-redux/static/js/main.bc17a9aa.js",
+    "static/media/user.png": "/movies-app-react-redux/static/media/user.109eb92014ac0b55efdf.png",
+    "index.html": "/movies-app-react-redux/index.html",
+    "main.a381aa2c.css.map": "/movies-app-react-redux/static/css/main.a381aa2c.css.map",
+    "main.bc17a9aa.js.map": "/movies-app-react-redux/static/js/main.bc17a9aa.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a381aa2c.css",
+    "static/js/main.bc17a9aa.js"
+  ]
+}
